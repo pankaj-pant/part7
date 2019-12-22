@@ -6,13 +6,13 @@ const LoginForm = ({ handleSubmit, username, password }) => {
     <form onSubmit={handleSubmit}>
       <div className="form-group">
         username
-        <input {...username} reset={null}/>
+        <input id='username' {...username} reset={null}/>
       </div>
       <div className="form-group">
         password
-        <input {...password} reset={null}/>
+        <input id='password' {...password} reset={null}/>
       </div>
-      <button type="submit" className="btn btn-primary">login</button>
+      <button type="submit" className="btn btn-primary">Login</button>
     </form>
   )
 }
