@@ -274,8 +274,6 @@ const App = () => {
         </div>
       </Router>
     </div>
-
-
   )
 }
 
